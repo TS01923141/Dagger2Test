@@ -2,6 +2,10 @@ package com.example.cartek.dagger2test.Module;
 
 import android.util.Log;
 
+import com.example.cartek.dagger2test.Module.CarModules.Engine;
+import com.example.cartek.dagger2test.Module.CarModules.Seat;
+import com.example.cartek.dagger2test.Module.CarModules.Wheel;
+
 import javax.inject.Inject;
 
 /**
@@ -13,7 +17,7 @@ public class Car {
 //    private Seat seat;
 //    private Wheel wheel;
     @Inject
-    Engine engine;
+Engine engine;
     @Inject
     Seat seat;
     @Inject

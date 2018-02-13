@@ -13,5 +13,6 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         new Car();
+//        ((CarApp) this.getApplicationContext()).getCarComponent().inject();
     }
 }

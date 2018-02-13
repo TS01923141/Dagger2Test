@@ -1,5 +1,9 @@
 package com.example.cartek.dagger2test.Module;
 
+import com.example.cartek.dagger2test.Module.CarModules.Engine;
+import com.example.cartek.dagger2test.Module.CarModules.Seat;
+import com.example.cartek.dagger2test.Module.CarModules.Wheel;
+
 import dagger.Module;
 import dagger.Provides;
 
