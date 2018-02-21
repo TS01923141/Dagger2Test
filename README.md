@@ -1,6 +1,6 @@
 # Dagger2Test
-inject data into class
-測試Dagger2 2.10版之前的實作方式
+inject data into class  
+測試Dagger2 2.10版之前的實作方式  
 
 ## 內容 ##
 CarModule提供Car.class所需的class  
